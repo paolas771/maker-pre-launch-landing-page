@@ -52,5 +52,5 @@ This project was done to practice CSS.
 
 ## Author
 
-- Website - [Paola Silva](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Paola Silva](https://github.com/paolas771)
+- Frontend Mentor - [@paolas771](https://www.frontendmentor.io/profile/paolas771)
