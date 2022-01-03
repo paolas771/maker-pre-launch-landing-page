@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/paolas771/maker-pre-launch-landing-page)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://paolas771.github.io/maker-pre-launch-landing-page/)
 
 ## My process
 
