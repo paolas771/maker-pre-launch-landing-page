@@ -1,0 +1,596 @@
+     html {
+         background-color: #080c20;
+     }
+     
+     .main-container {
+         width: 375px;
+         height: 3852px;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+     }
+     
+     .cont-1 {
+         width: 375px;
+         height: 740px;
+         text-align: center;
+     }
+     
+     h1 {
+         color: white;
+         font-family: 'Manrope', sans-serif;
+         font-size: 32px;
+         font-weight: 800;
+         text-align: center;
+         margin-left: auto;
+         margin-right: auto;
+         width: 250px;
+         height: 122px;
+         margin-top: 40px;
+     }
+     
+     h1 span {
+         color: #3EE9E5;
+     }
+     
+     .logo {
+         margin-left: auto;
+         margin-right: auto;
+         margin-top: 40px;
+         height: 80px;
+     }
+     
+     .desktop {
+         display: none;
+     }
+     
+     .cont-1 p {
+         color: #777F98;
+         width: 327px;
+         height: 100px;
+         margin-left: auto;
+         margin-right: auto;
+         margin-top: 40px;
+         font-family: 'Manrope', sans-serif;
+         font-size: 15px;
+         font-weight: 500;
+         line-height: 25px;
+         text-align: center;
+     }
+     
+     .scroll {
+         margin-top: 30px;
+         width: 26px;
+         height: 42px;
+         margin-left: auto;
+         margin-right: auto;
+     }
+     
+     .cont-2 {
+         height: 1134px;
+         width: 375px;
+         position: absolute;
+         top: 884px;
+         text-align: center;
+     }
+     
+     .rImg {
+         background: #093F68;
+         border-radius: 45px;
+         width: 120px;
+         height: 124px;
+         margin-left: auto;
+         margin-right: auto;
+         margin-bottom: 25px;
+     }
+     
+     #passion {
+         margin-top: 20px;
+     }
+     
+     #ff,
+     #lifestyle,
+     #work {
+         margin-top: 30px;
+     }
+     
+     .reasons {
+         color: white;
+         font-family: 'Manrope', sans-serif;
+         margin-bottom: 60px;
+     }
+     
+     .reasons h3 {
+         font-size: 18px;
+     }
+     
+     .reasons p {
+         color: #777F98;
+         width: 320px;
+         line-height: 25px;
+         margin-left: auto;
+         margin-right: auto;
+         font-size: 15px;
+     }
+     
+     .cont-3 {
+         position: absolute;
+         top: 2162px;
+         width: 375px;
+         height: 1163px;
+         text-align: center
+     }
+     
+     .pricing h2 {
+         color: white;
+         font-family: 'Manrope', sans-serif;
+     }
+     
+     .pricing p {
+         color: #777F98;
+         font-family: 'Manrope', sans-serif;
+         font-size: 15px;
+         line-height: 25px;
+         width: 327px;
+         margin-left: auto;
+         margin-right: auto;
+     }
+     
+     .plans {
+         height: 436px;
+         width: 327px;
+         background: #093F68;
+         border-radius: 8px;
+         text-align: left;
+         margin-left: auto;
+         margin-right: auto;
+         margin-top: 80px;
+     }
+     
+     .plans img {
+         position: absolute;
+         top: 205px;
+         left: 50px;
+     }
+     
+     .plans h4,
+     .plans-2 h4 {
+         padding-top: 50px;
+         font-family: 'Manrope', sans-serif;
+         color: white;
+         font-size: 18px;
+         padding-left: 30px;
+     }
+     
+     .info {
+         width: 268px;
+         margin-left: auto;
+         margin-right: auto;
+         color: #777F98;
+         font-family: 'Manrope', sans-serif;
+         font-size: 15px;
+         line-height: 25px;
+     }
+     
+     .plans h2,
+     .plans-2 h2 {
+         color: white;
+         font-family: 'Manrope', sans-serif;
+         padding-left: 30px;
+         font-size: 40px;
+         margin-top: 0;
+         margin-bottom: 5px;
+     }
+     
+     .plans ul,
+     .plans-2 ul {
+         list-style-type: '\2713';
+         font-family: 'Manrope', sans-serif;
+         color: #3EE9E5;
+     }
+     
+     .plans li p,
+     .plans-2 li p {
+         color: white;
+         line-height: 25px;
+         font-size: 15px;
+         padding-left: 15px;
+     }
+     
+     .plans-2 {
+         width: 327px;
+         height: 448px;
+         background: #3EE9E5;
+         text-align: left;
+         margin-left: auto;
+         margin-right: auto;
+         border-radius: 8px;
+         margin-top: 70px;
+     }
+     
+     .plans-2 img {
+         position: absolute;
+         top: 700px;
+         left: 50px;
+     }
+     
+     .plans-2 .info {
+         color: #080c20;
+     }
+     
+     .plans-2 h4 {
+         color: #080c20;
+     }
+     
+     .plans-2 ul {
+         color: #093F68;
+     }
+     
+     .plans-2 li p {
+         color: #080c20;
+     }
+     
+     .plans-2 h2 {
+         color: #080c20;
+     }
+     
+     .plans-2 h2 span {
+         font-size: 15px;
+         font-weight: 500;
+         position: relative;
+         top: -10px;
+         opacity: 0.6;
+     }
+     
+     .signup {
+         height: 219px;
+         width: 375px;
+         position: absolute;
+         top: 3469px;
+         text-align: center;
+     }
+     
+     .h2Banner {
+         width: 375px;
+         height: 80px;
+         background: url(assets/bg-footer-squiggle.svg);
+         background-position: center;
+         background-size: cover;
+         background-repeat: no-repeat;
+     }
+     
+     .signup h2 {
+         text-align: center;
+         color: white;
+         font-size: 24px;
+         font-family: 'Manrope', sans-serif;
+         width: 240px;
+         height: 67px;
+         margin-right: auto;
+         margin-left: auto;
+     }
+     
+     .signup input {
+         width: 306px;
+         height: 46px;
+         padding-left: 20px;
+         border-radius: 24px;
+         background: #093F68;
+         border: none;
+         outline: none;
+         font-size: 15px;
+         font-family: 'Manrope', sans-serif;
+         font-weight: 800;
+         color: white;
+         margin-top: 10px;
+     }
+     
+     .signup p {
+         width: 251px;
+         margin-left: 35px;
+         color: #ff2965;
+         font-size: 12px;
+         text-align: left;
+         font-family: 'Manrope', sans-serif;
+     }
+     
+     .signup input:focus {
+         border: 2px solid #3EE9E5;
+     }
+     
+     .signup button {
+         background: #3EE9E5;
+         margin-top: 15px;
+         width: 327px;
+         height: 48px;
+         border-radius: 24px;
+         border: none;
+         font-size: 15px;
+         font-weight: 800;
+         color: #093F68;
+     }
+     
+     .signup button:hover {
+         background: #080c20;
+         border: 2px solid #3ee9e5;
+         color: #ffffff;
+     }
+     
+     @media only screen and (min-width: 768px) {
+         .main-container {
+             width: 768px;
+             height: 2873px;
+         }
+         .cont-1 {
+             width: 768px;
+         }
+         .logo {
+             display: flex;
+             padding-left: 35px;
+             padding-top: 48px;
+             margin: 0;
+         }
+         .mobile {
+             display: none;
+         }
+         .banner {
+             width: 768px;
+             height: 357px;
+             display: flex;
+             align-items: center;
+             justify-items: center;
+         }
+         .desktop {
+             display: inline;
+         }
+         #squiggle {
+             height: 268px;
+             margin-left: 20px;
+             padding-left: 40px;
+             padding-right: 40px;
+         }
+         #leftHero,
+         #rightHero {
+             height: 356px;
+         }
+         #leftHero {
+             margin-left: -180px;
+         }
+         .imgCont {
+             height: 357px;
+             width: 317px;
+             /*https://www.educative.io/edpresso/how-to-crop-an-image-in-css*/
+             overflow: hidden;
+         }
+         h1 {
+             width: 375px;
+             height: 81px;
+             line-height: 40px;
+         }
+         .cont-1 p {
+             width: 457px;
+             height: 75px;
+         }
+         .headInfo {
+             position: absolute;
+             top: 155px;
+             left: 165px;
+         }
+         .cont-2 {
+             position: absolute;
+             width: 573px;
+             height: 614px;
+             top: 626px;
+         }
+         .reasons {
+             display: inline-flex;
+         }
+         .first,
+         .third {
+             margin-left: 155px;
+         }
+         .second,
+         .fourth {
+             margin-left: 97px;
+         }
+         .reasons p {
+             text-align: left;
+             width: 340px;
+             height: 50px;
+         }
+         .reasons h3 {
+             text-align: left;
+         }
+         .reasonInfo {
+             margin-left: 55px;
+         }
+         .cont-3 {
+             position: absolute;
+             top: 1381px;
+             width: 768px;
+         }
+         .pricing {
+             width: 573px;
+             height: 110px;
+             margin-left: auto;
+             margin-right: auto;
+             margin-top: 140px;
+         }
+         .pricing p {
+             width: 573px;
+             height: 50px;
+         }
+         .plans,
+         .plans-2 {
+             width: 445px;
+             height: 425px;
+         }
+         .info {
+             text-align: left;
+             margin-left: 30px;
+             width: 369px;
+             height: 50px;
+         }
+         .plans img {
+             top: 308px;
+             left: 199px;
+         }
+         .plans-2 img {
+             top: 790px;
+             left: 199px;
+         }
+         .signup {
+             width: 768px;
+             height: 140px;
+             position: absolute;
+             top: 2628px;
+             background: url(assets/bg-footer-squiggle.svg);
+             background-position: center;
+             background-size: cover;
+             background-repeat: no-repeat;
+             margin-top: 70px;
+         }
+         .h2Banner {
+             background: none;
+             height: 33px;
+             padding-bottom: 29px;
+         }
+         .signup p {
+             margin-left: 155px;
+         }
+         .signup h2 {
+             width: 768px;
+         }
+         .signup input {
+             width: 298px;
+             height: 46px;
+         }
+         .signup button {
+             width: 140px;
+             height: 48px;
+             margin-left: 16px;
+         }
+     }
+     
+     @media only screen and (min-width: 1440px) {
+         .main-container {
+             width: 1440px;
+             height: 2644px;
+         }
+         .cont-1 {
+             width: 1440px;
+         }
+         .logo {
+             padding-left: 165px;
+             padding-top: 81px;
+             padding-bottom: 80px;
+         }
+         .banner {
+             width: 1440px;
+             height: 459px;
+         }
+         #squiggle {
+             height: 377px;
+             margin-left: 60px;
+             margin-right: 60px;
+             padding-bottom: 110px;
+         }
+         #leftHero,
+         #rightHero {
+             height: 459px;
+         }
+         #leftHero {
+             margin-left: -65px;
+         }
+         .imgCont {
+             width: 396px;
+             height: 459px;
+         }
+         .headInfo {
+             width: 730px;
+             top: 301px;
+             left: 355px;
+         }
+         h1 {
+             font-size: 48px;
+             line-height: 56px;
+             margin-left: auto;
+             margin-right: auto;
+             text-align: center;
+             width: 550px;
+             height: 113px;
+         }
+         .cont-2 {
+             width: 1110px;
+             height: 383px;
+             top: 891px;
+             left: 165px;
+             display: flex;
+         }
+         .reasons {
+             display: flex;
+             flex-direction: column;
+             margin-left: 0;
+             width: 255px;
+             height: 335px;
+             margin-left: 30px;
+         }
+         .reasons p {
+             width: 255px;
+             height: 75px;
+         }
+         .reasonInfo {
+             margin-left: 0;
+         }
+         .second,
+         .fourth {
+             margin-top: 48px;
+         }
+         .cont-3 {
+             top: 1380px;
+             width: 1440px;
+         }
+         .pricing {
+             width: 540px;
+             height: 118px;
+         }
+         .pricing h2 {
+             font-size: 32px;
+         }
+         .plans-cont {
+             display: flex;
+             align-items: center;
+             width: 920px;
+             height: 482px;
+             margin-left: auto;
+             margin-right: auto;
+             margin-top: 80px;
+         }
+         .plans img {
+             left: 328px;
+             top: 345px;
+         }
+         .plans-2 img {
+             top: 325px;
+             left: 772px;
+         }
+         .plans,
+         .plans-2 {
+             margin-top: 0;
+             margin-left: 30px;
+         }
+         .plans-2 {
+             height: 449px;
+         }
+         .signup {
+             width: 1440px;
+             height: 228px;
+             top: 2299px;
+         }
+         .signup h2 {
+             width: 1440px;
+         }
+         .signup p {
+             margin-left: 490px;
+         }
+     }
