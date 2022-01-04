@@ -12,4 +12,5 @@ button.addEventListener("click", () => {
     else{
         email.style.border = "none";
         error.textContent = "";
+    }
 });
